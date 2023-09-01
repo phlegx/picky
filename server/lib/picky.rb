@@ -26,7 +26,7 @@ module Picky
   require 'active_support/core_ext/object/blank'
   require 'active_support/multibyte'
   require 'multi_json'
-  require 'rack_fast_escape' if defined? Rack
+  # require 'rack_fast_escape' if defined? Rack
   
   # TODO Still required with Ruby 2.1?
   # 
